@@ -13,7 +13,7 @@ public class lastIndexOf {
 	    }
 	    return -1;
 	}
-	
+	 
 	// test
 	public static void main(String[] args) {
 		int[] array = {74, 85, 102, 99, 101, 85, 56};

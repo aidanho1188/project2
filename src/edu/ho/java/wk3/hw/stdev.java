@@ -7,7 +7,7 @@ package edu.ho.java.wk3.hw;
  * 
  */
 public class stdev {
-	
+	 
 	public static double stdev(int[] a) {
 	    double num = 0;
 	    double sum = 0;

@@ -19,7 +19,7 @@ public class kthLargest {
 		
 		return value;
 	}
-	
+	 
 	// test
 	public static void main(String[] args) {
 		// use Integer type to do a reverse sort

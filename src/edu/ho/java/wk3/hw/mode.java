@@ -5,7 +5,7 @@ package edu.ho.java.wk3.hw;
  * Exercise 5
  */
 public class mode {
-	
+	 
 	public static int mode(int[] numbers) {
 	    int[] counts = new int[101]; //including 0
 	    int maxCount = 0;

@@ -18,7 +18,6 @@ public class isSorted {
 	}
 	
 	// test
-	
 	public static void main(String[] args) {
 		double[] list2= {1.5, 4.3, 7.0, 19.5, 25.1, 46.2};
 		System.out.print(isSorted(list2));

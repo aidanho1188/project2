@@ -13,8 +13,7 @@ public class countInRange {
 	    for(int i = 0; i < array.length; i++) {
 	        if(min <= array[i] && array[i] <= max)
 	            count++;
-	    }
-	    
+	    }    
 		return count;
 	}
 	

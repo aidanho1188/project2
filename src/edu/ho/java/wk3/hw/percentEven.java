@@ -21,7 +21,7 @@ public class percentEven {
 	    // percent=n*100/total
 	    return count * 100.0 / a.length;
 	}
-	
+	 
 	// test
 	public static void main(String[] args) {
 		int[] list = {6, 2, 9, 11, 3};

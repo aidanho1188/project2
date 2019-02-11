@@ -18,7 +18,7 @@ public class minGap {
 		if (a.length < 2) {
 			return 0;
 		}
-
+ 
 		// min = 2
 		int min = a[1] - a[0];
 

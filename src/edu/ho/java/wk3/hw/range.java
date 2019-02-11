@@ -9,7 +9,7 @@ import java.util.Arrays;
  * range = high-low
  * add 1 since the range is 1 more 
  */
-public class range {
+public class range { 
 
 	public static int range(int[] array) {
 		//sort arrays

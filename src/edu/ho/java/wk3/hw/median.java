@@ -13,7 +13,7 @@ public class median {
 		double median = 0;
 		Arrays.sort(array);
 		int mid; // middle
-		
+		 
 		// check if array length is odd or even
 		if( array.length % 2 == 0) {
 			// if even find median
