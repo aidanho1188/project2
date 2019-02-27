@@ -1,4 +1,4 @@
-package edu.ho.java.wk4To5.hw;
+package edu.ho.java.wk4.hw;
 
 /**
  * 
