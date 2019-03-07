@@ -1,4 +1,4 @@
-package edu.ho.java.midterm;
+package edu.ho.java.midtermInClass;
 
 /**
  * 
@@ -11,7 +11,8 @@ public class Poem {
 	public int lines;
 
 	public Poem(String name, int lines) {
-
+		this.name =name;
+		this.lines =lines;
 	}
 
 	public String getName() {
@@ -23,3 +24,4 @@ public class Poem {
 	}
 
 }
+
