@@ -8,20 +8,16 @@ package edu.ho.java.midtermInClass;
 public class Perfect {
 
 	public static void main(String[] args){
-	    int x = 1; 
-	    int y = 1000;
 
-	    // repeat until x is greater than y
-	    for (x = 1; x <= y; x++) { 
+	    // repeat 1000 times
+	    for (int x = 1; x <= 1000; x++) { 
 	    	// set sum
 	        int sum = 0;
-	        // check if x%z is 0
 	        for (int z = 1; z < x; z++) {
 	            if ((x % z) == 0) {
-	                sum += z;
+	                sum = sum + z;
 	            } 
 	        }  
-	        // check if sum = x
 	        if (sum == x){       
 	        	// print out the sum if sum = x
 	            System.out.println(sum);
