@@ -1,5 +1,5 @@
 package edu.ho.java.wk6.hwChapter9;
-// give code
+// given code
 // Demonstrates shape classes.
 public interface Shape {
 	public static void main(String[] args) {
