@@ -53,10 +53,10 @@ defaults:
 
 # Site info
 
-url: https://devhints.io
-title: Devhints.io cheatsheets
+url: https://aidanho1188.github.io/project2/
+title:  Algorithms in Programming
 
 # GitHub metadata
 # https://help.github.com/articles/repository-metadata-on-github-pages/
 
-repository: rstacruz/cheatsheets
+repository: aidanho1188/project2
