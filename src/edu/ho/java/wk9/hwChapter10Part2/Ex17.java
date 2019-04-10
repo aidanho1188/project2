@@ -10,28 +10,33 @@ import java.util.ArrayList;
 public class Ex17 {
 
 	public ArrayList<Integer> interleave(ArrayList<Integer> a1, ArrayList<Integer> a2) {
-		ArrayList<Integer> result = new ArrayList<Integer>();
+		ArrayList<Integer> temps = new ArrayList<Integer>();
+		// size check
 		if (a1.size() > a2.size()) {
 			int i = 0;
 			int j = 0;
+			// combine list
 			while (i < a2.size() * 2) {
-				System.out.println(i);
+				// add to list 1
 				a1.add(i, a2.get(j));
 				i = i + 2;
 				j++;
 			}
-			result = a1;
+			// set temp
+			temps = a1;
 		} else {
 			int i = 0;
 			int j = 0;
 			while (i < a1.size() * 2) {
-				System.out.println(i);
+				// add to list 2
 				a2.add(i, a1.get(j));
 				i = i + 2;
 				j++;
 			}
-			result = a2;
+			// set temp
+			temps = a2;
 		}
-		return result;
+		// return temp, either a1 or a2
+		return temps; // return new array list
 	}
 }
