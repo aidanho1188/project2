@@ -14,6 +14,12 @@ public class ArrayLists {
 		display(names);
 		names.remove("name");
 		display(names);
+		
+		/*
+		 * for (int i = 0; i <limit; i++){
+		 * name = JOptionPane.showInputDialog(null, "Limited a student's name");
+		 * system.add(name);
+		 */
 	}
 
 	private static void display(ArrayList<String> names) {
