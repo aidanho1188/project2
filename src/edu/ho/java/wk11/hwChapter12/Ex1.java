@@ -2,9 +2,16 @@ package edu.ho.java.wk11.hwChapter12;
 
 public class Ex1 {
 
-	public void starString(int num) {
-		if (num == 0) {
+	public String starString(int n) {
+		if (n < 0) {
 			throw new IllegalArgumentException();
 		}
+
+		if (n == 0) {
+			return "*";
+		}
+
+		return starString(n - 1) + starString(n - 1);
 	}
+
 }
